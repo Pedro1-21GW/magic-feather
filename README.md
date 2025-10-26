@@ -34,3 +34,7 @@ It uses only open source models, for the ASR transcription and also for VAD.
 
 ### Python Dependencies
 It's highly recommended to use a virtual environment based on the `requirements.txt` file.
+
+## Future Steps
+* Probably try to use [this](https://huggingface.co/freds0/distil-whisper-large-v3-ptbr) distiled version of whisper large with pt-br fine-tuning.
+* I really wanted to compact all the pipeline into a Discord bot (including the tranformation from the final transcription to the pdf Diary with the DnD Template - check the `example` folder). Still figuring out how I could make that.
